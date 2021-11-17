@@ -13,7 +13,6 @@ function App() {
         <h5 className="text">BITCOIN DASHBOARD</h5>
       </div>
       <ContextProvider>
-        {/* ilk yaptığımız counter iptal */}
         <div className="container">
           <GenericCounter date={date} type="hour" />
           <GenericCounter date={date} type="minute" />

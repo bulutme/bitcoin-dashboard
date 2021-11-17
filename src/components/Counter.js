@@ -88,7 +88,6 @@ export const GenericCounter = ({ type, date: _date }) => {
           <span className="counter-types">{type}s</span>
         )}
       </div>
-      {/* <button onClick={decreaseTime} >-</button>  <button onClick={increaseTime}>+</button> */}
     </div>
   );
 };
